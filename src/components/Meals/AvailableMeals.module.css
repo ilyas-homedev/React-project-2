@@ -1,0 +1,32 @@
+.meals {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+  -webkit-animation: meals-appear 1s ease-out forwards;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem)  ;
+    -webkit-transform: translateY(3rem)  ;
+    -moz-transform: translateY(3rem)  ;
+    -ms-transform: translateY(3rem)  ;
+    -o-transform: translateY(3rem)  ;
+}
+  to {
+    opacity: 1;
+    transform: translateY(0)  ;
+    -webkit-transform: translateY(0)  ;
+    -moz-transform: translateY(0)  ;
+    -ms-transform: translateY(0)  ;
+    -o-transform: translateY(0)  ;
+}
+}
